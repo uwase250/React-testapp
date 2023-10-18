@@ -14,12 +14,14 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/signup">Signup</Link>
             </ul>
 
-            <ul className={`mobile-menu ${mobileMenuOpen === false?' hidden':''}`}>
+            <ul className={`mobile-menu ${mobileMenuOpen === false ? ' hidden' : ''}`}>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/signup">Signup</Link>
             </ul>
 
             <span className='menu'>
@@ -29,7 +31,7 @@ const Navbar = () => {
                 }}>
                     Menu
                 </button>
-               
+
             </span>
         </nav>
     )
