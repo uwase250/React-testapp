@@ -12,6 +12,7 @@ const Navbar = () => {
             <h3>Logo</h3>
             <ul className='desktop-menu'>
                 <Link to="/">Home</Link>
+                <Link to="/analytics">Analytics</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/signup">Signup</Link>
